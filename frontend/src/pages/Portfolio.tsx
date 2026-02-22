@@ -501,7 +501,7 @@ const Portfolio = () => {
         </div>
 
         <motion.div style={{ y: heroY, opacity: heroOpacity }} className="container mx-auto px-6 relative z-10">
-          <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-12 md:gap-16">
+          <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-10 md:gap-16">
             {/* Text */}
             <div className="text-center md:text-left">
               <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
@@ -569,14 +569,14 @@ const Portfolio = () => {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="shrink-0 mt-8 md:mt-0"
+              className="shrink-0 mt-14 md:-mt-16"
             >
               <div className="relative">
                 <div className="absolute -inset-1 gradient-primary rounded-full blur-lg opacity-40" />
                 <img
                   src={passwordphoto}
                   alt="Akshat Ghatiya"
-                  className="relative w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-2 border-border shadow-glow"
+                  className="relative w-50 h-50 md:w-64 md:h-64 rounded-full object-cover border-2 border-border shadow-glow"
                 />
               </div>
             </motion.div>
