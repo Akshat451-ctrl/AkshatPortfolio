@@ -576,7 +576,7 @@ const Portfolio = () => {
                 <img
                   src={passwordphoto}
                   alt="Akshat Ghatiya"
-                  className="relative w-50 h-50 md:w-64 md:h-64 rounded-full object-cover border-2 border-border shadow-glow"
+                  className="relative w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-2 border-border shadow-glow"
                 />
               </div>
             </motion.div>
