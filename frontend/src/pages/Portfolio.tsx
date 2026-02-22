@@ -89,7 +89,7 @@ const projects = [
     description: "A web application for bulk CSV file management, featuring efficient data processing, dynamic table rendering, and user-friendly interface for seamless file uploads and management.",
     tags: ["React js", "Javascript", "Tailwind CSS", "Node js", "Express js" , "MongoDB"],
     github: "https://github.com/Akshat451-ctrl/caseflow",
-    live: "https://caseflow-pi.vercel.app/login",
+    live: "https://caseflow-pi.vercel.app/",
     image: "https://support.currencycloud.com/hc/article_attachments/15640977687452", // Replace with actual project image URL
   },
   {
